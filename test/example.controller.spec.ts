@@ -1,8 +1,9 @@
 
 import { Test, TestingModule } from '@nestjs/testing';
-import { ExampleController } from './example.controller';
-import { ExampleService } from './example.service';
-import { PrismaService } from '../../prisma/prisma.service';
+import { ExampleController } from '../src/microservices/example/example.controller';
+import { ExampleService } from '../src/microservices/example/example.service';  
+import { PrismaService } from '../src/prisma/prisma.service';
+
 
 describe('ExampleController CRUD', () => {
   let controller: ExampleController;

@@ -1,5 +1,5 @@
 
-import { AuthGuard } from './auth.guard';
+import { AuthGuard } from '../src/guards/auth.guard';
 
 describe('AuthGuard', () => {
   let guard: AuthGuard;
