@@ -1,3 +1,4 @@
+``` 
 poc-nest-microservices/
 ├── prisma/
 │   ├── schema.prisma                # In-memory veritabanı için Prisma şeması
@@ -20,3 +21,4 @@ poc-nest-microservices/
 │       └── app.e2e-spec.ts          # E2E testleri
 ├── package.json                     # Proje bağımlılıkları ve betikleri
 └── jest.config.js                   # Jest test framework'ü yapılandırması
+```
