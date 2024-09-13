@@ -1,0 +1,27 @@
+
+{
+  "name": "poc-microservices",
+  "version": "1.0.0",
+  "description": "Proof of concept project for microservices and testing best practices",
+  "main": "main.ts",
+  "scripts": {
+    "start": "nest start",
+    "test": "jest",
+    "test:e2e": "jest --config test/jest-e2e.json",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "@nestjs/common": "^8.0.0",
+    "@nestjs/core": "^8.0.0",
+    "@nestjs/platform-express": "^8.0.0",
+    "@prisma/client": "^3.0.0",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@nestjs/testing": "^8.0.0",
+    "jest": "^27.0.0",
+    "supertest": "^6.0.0",
+    "sqlite3": "^5.0.0",
+    "ts-jest": "^27.0.0"
+  }
+}
